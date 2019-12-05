@@ -8,7 +8,6 @@
 
   <!-- for simulation -->
   <xacro:include filename="$(find franka_description)/robots/panda.transmission.xacro"/>
-  
   <xacro:include filename="$(find panda_table_description)/urdf/panda_table.gazebo.xacro"/>
   <!-- end for simulation -->
 
@@ -139,7 +138,8 @@
     <child link = "mount_flange_link" />
     <origin xyz="0.0 0.305 0.7" rpy="0.0 0.0 1.5707" />
   </joint>
-  
+
+  <!--
   <joint name="table_column1" type="fixed">
     <parent link="table" />
     <child link = "column1" />
@@ -156,6 +156,6 @@
     <child link = "camera_link" />
     <origin xyz="-0.045 -0.85 1.31" rpy="0.0 0.745 1.56" />
   </joint>
-  
+  -->
 
 </robot>
