@@ -38,7 +38,7 @@ rosservice call /hiqp_joint_effort_controller/set_primitives \
   frame_id: 'world'
   visible: true
   color: [0.0, 1.0, 0.0, 1.0]
-  parameters: [-0.3, -0.1, 0.77, 0.02]
+  parameters: [-0.3, -0.1, 0.87, 0.02]
 "
 
 ####################### TASKS #######################

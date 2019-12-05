@@ -5,7 +5,7 @@ rosservice call /panda/franka_hiqp_joint_effort_controller/set_tasks \
   visible: 1
   active: 1
   monitored: 1
-  def_params: ['TDefFullPose', '1.51', '-1.17', '0.003', '-2.89', '-0.0', '1.82', '0.84']
+  def_params: ['TDefFullPose', '0.51', '-1.17', '0.003', '-2.89', '-0.0', '1.82', '0.84']
   dyn_params: ['TDynPD', '0.5', '1.5'] "
 
   #def_params: ['TDefFullPose', '-0.001', '-0.476', '0.003', '-2.654', '-0.0', '2.236', '0.84']
