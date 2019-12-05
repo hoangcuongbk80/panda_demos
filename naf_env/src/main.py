@@ -102,7 +102,7 @@ def main():
                         help='batch size (default: 512)')
     parser.add_argument('--num_steps', type=int, default=300, metavar='N',
                         help='max episode length (default: 1000)')
-    parser.add_argument('--num_episodes', type=int, default=300, metavar='N',
+    parser.add_argument('--num_episodes', type=int, default=50, metavar='N',
                         help='number of episodes (default: 1000)')
     parser.add_argument('--hidden_size', type=int, default=128, metavar='N',
                         help='hidden size (default: 128)')
